@@ -1,5 +1,5 @@
 {
-    "name": "pizzapizza/magento2-shipment-status-fix",
+    "name": "pizza-pizza/magento2-shipment-status-fix",
     "description": "PizzaPizza: REST Shipment Fix",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0"
