@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- /** * @author Pizza Pizza Design Services GmbH * @copyright Copyright (c) 2016 Pizza Pizza Design Services GmbH * @package PizzaPizza_RestOrderCompletion */ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Sales\Model\Order\ShipmentRepository">
+		<plugin name="complete-order-on-shipment" type="PizzaPizza\RestOrderCompletion\Model\Sales\ShipmentRepositoryExtension" sortOrder="10"/>
+	</type>
+</config>
