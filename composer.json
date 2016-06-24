@@ -1,6 +1,6 @@
 {
     "name": "pizzapizza/restordercompletion",
-    "description": "PizzaPizza: Rest Order Completion",
+    "description": "PizzaPizza: REST Shipment Fix",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0"
     },
